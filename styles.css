@@ -1,0 +1,359 @@
+body,
+html {
+    /* The image used */
+    background-image: url('pics/IMG_20230326_003925-fotor-20230620101359.png');
+    /* filter: grayscale(90%); */
+    font-family: Varela Round, sans-serif;
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    color: whitesmoke;
+}
+
+.nvbr {
+    /* Other styles */
+    transition: transform 0.3s ease-out; /* Adjust the duration as needed */
+  }
+
+
+.hidden{
+    display: none;
+}
+
+.parallax1 {
+    background-image: url('pics/IMG_20230326_003925-fotor-20230620101359.png');
+    filter: grayscale(30%);
+    font-family: Varela Round, sans-serif;
+
+    /* Full height */
+    height: 120%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parallax1-2{
+    background-image: url('pics/IMG_20230326_003925-fotor-20230620101359.png');
+    filter: grayscale(30%);
+    font-family: Varela Round, sans-serif;
+
+    /* Full height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax1-3{
+    background-image: url('pics/IMG_20230326_003925-fotor-20230620101359.png');
+    filter: grayscale(30%);
+    font-family: Varela Round, sans-serif;
+
+    /* Full height */
+    height: 750px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url('pics/IMG_20230326_003925-fotor-20230620101359.png');
+    filter: grayscale(30%);
+    width: 100%;
+    height: 50%;
+    /* filter: grayscale(100%); */
+    font-family: Varela Round, sans-serif;
+
+    /* Full height */
+    height: 75%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax3 {
+    background-image: url('pics/IMG_20230326_003925-fotor-20230620101359.png');
+    filter: grayscale(30%);
+    font-family: Varela Round, sans-serif;
+
+    /* Full height */
+    height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax4 {
+    background-image: url('pics/IMG_20230326_003925-fotor-20230620101359.png');
+    filter: grayscale(30%);
+    font-family: Varela Round, sans-serif;
+
+    /* Full height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+#events-history-cards{
+    background-color: rgb(59, 59, 59);
+    color:white;
+}
+
+
+.bg-darkenter{
+    align-items: center;
+    top: 700px;
+}
+
+.heading{
+    position: relative;
+    font-size: 80px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 400px;
+}
+
+.ucr-logo-navbar{
+    width: 90px;
+    height: 90px;
+}
+.team{
+    font-size: 80px;
+}
+
+@media (max-width:950px){
+    .heading{
+        position: relative;
+        font-size: 50px;
+        
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 350px;
+    }
+    .ucr-logo-navbar{
+        width: 70px;
+        height: 70px;
+    }
+    .team{
+        font-size: 50px;
+    }
+}
+@media (max-width:500px){
+    .heading{
+        position: relative;
+        font-size: 30px;
+        
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 350px;
+    }
+    .team{
+        font-size: 50px;
+    }
+    .ucr-logo-navbar{
+        width: 60px;
+        height: 60px;
+    }
+    
+}
+
+#navbar{
+    color: aliceblue;
+}
+
+
+
+.slogan{
+    position: relative;
+    display: inline;
+    /* font-size: 2rem; */
+    /* font-weight: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    top: 500px;
+    background-color: black;
+    color: white;
+}
+
+/* .tstm{
+    position: relative;
+    font-size: 5rem;
+    color: rgb(5, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+} */
+
+#testimonial p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#testimonial h2{
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+
+
+
+ /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+ .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    /* border-radius: 60px; */
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card:active .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgb(134, 134, 134);
+    color: white;
+    transform: rotateY(180deg);
+  } 
+
+  .icons-footer-contact{
+    transition: transform 0.3s ease;
+  }
+
+  .icons-footer-contact:hover{
+    transform: scale(1.5);
+  }
+
+  iframe{
+    width: 500px;
+    height:350px;
+  }
+
+  @media (max-width:550px){
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+
+  }
+
+/* Image Gallery */
+
+.grid-wrapper > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+    transition: transform 0.3s ease;
+
+}
+.grid-wrapper > div > img:hover {
+    transform: scale(1.3);
+    
+  }
+
+  .grid-wrapper > div > img:active {
+    transform: scale(1.3);
+    
+  }
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+
+/* image gallery */
